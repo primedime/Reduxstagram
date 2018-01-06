@@ -1,11 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router';
 
-const Main = React.craeteClass({
+const Main = React.createClass({
     render() {
         return (
             <div>
-                <Link to="/">Reduxstagram</Link>
+                <h1>
+                    <Link to="/">Reduxstagram</Link>
+                </h1>
             </div>
         )
     }
