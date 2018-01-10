@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Single = React.createClass ({
+const Single = React.createClass({
     render() {
-        return(
-        <div class="single-photo">
-            I'm the single
+        return ( 
+        <div className="single-photo">
+            I'm a single
         </div>
         )
     }
